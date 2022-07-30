@@ -1,0 +1,25 @@
+/* Banner Area starts here */
+.main-area .banner-area .banner{
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+.main-area .banner-area .banner-title{
+  height: 100%;
+  width: 100%;
+  max-height: 350px;
+  padding-top: 15%;
+  padding-bottom: 6rem;
+  font: normal 1.5rem/1rem var(--dark);
+}
+.banner img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  height: 461px;
+}
+/* Banner Area ends here */

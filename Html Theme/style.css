@@ -1,0 +1,50 @@
+
+
+ /* Include Css variables file */
+@import url('./vendor/css/_variables.css');
+
+/*  Include Global file */
+@import url('./vendor/css/_global.css');
+
+ /* Include header file */
+ @import url('./vendor/css/_header.css');
+
+/* Include Grid file */
+@import url('./vendor/css/_grid.css');
+
+/* Include Banner file */
+@import url('./vendor/css/_banner.css');
+
+/* Include Category file */
+@import url('./vendor/css/_category.css');
+
+/* Include Post file */
+@import url('./vendor/css/_post.css');
+
+/* Include Sidebar file */
+@import url('./vendor/css/_sidebar.css');
+
+/* Include paginationfile */
+@import url('./vendor/css/_pagination.css');
+
+/* Include Footer file */
+@import url('./vendor/css/_footer.css');
+
+/* Include Media file */
+@import url('./vendor/css/_media.css');
+
+
+
+
+/* Reset code */
+html,body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font: normal 900 1rem var(--font-Rale);
+  /* background: var(--dark); */
+  /* overflow: hidden; */
+}

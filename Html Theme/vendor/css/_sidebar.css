@@ -1,0 +1,44 @@
+
+aside.sidebar .latest-post .new-post{
+  border-bottom: 1px solid var(--border);
+  padding: 5% 0;
+  max-height: 9rem;
+}
+aside.sidebar .latest-post .new-post .post-image,
+aside.sidebar .latest-post .new-post .post-title{
+  padding: 0 .6rem;
+}
+aside.sidebar .latest-post .new-post .post-image img{
+  border-radius: 5rem;
+}
+aside.sidebar .latest-post .new-post .post-title{
+  padding: 1rem;
+}
+
+/* Search Area */
+aside.sidebar .searh-area{
+  padding: 8rem 0;
+}
+aside.sidebar .searh-area .search .form-group {
+  width: 258px;
+  background: var(--gray);
+}
+/* Popular Tags */
+aside.sidebar .popular-tags{
+  padding: 4rem 0;
+}
+aside.sidebar .popular-tags .tags a{
+  margin: 12px 0;
+}
+aside.sidebar .popular-tags .tags a span{
+  padding: 7px 15px;
+  background: var(--gray);
+  border-radius: 50px;
+  margin-right: 1rem;
+  color: var(--dark);
+  transition: background.7s ease;
+}
+aside.sidebar .popular-tags .tags a:hover span{
+  background: var(--primary-color);
+  border: 1px solid var(--border);
+}

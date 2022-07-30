@@ -1,0 +1,21 @@
+/* All Category Css is here */
+.main-area .categories{
+  padding: 3rem 0;
+}
+.main-area .categories a>span{
+  border: 1px solid var(--light);
+  padding: 20px 10px;
+  border-radius: 50px;
+  margin-left: 1.5rem;
+  background: var(--light);
+  box-shadow: var(--box-shadow2);
+  color: var(--gray);
+  transition: all .5s ease;
+}
+.main-area .categories a:hover>span,
+.main-area .categories a:focus>span{
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--light);
+  box-shadow: none;
+}

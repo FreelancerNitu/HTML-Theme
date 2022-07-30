@@ -1,0 +1,49 @@
+.footer-area{
+  background: var(--dark);
+  padding: 1% 7%;
+}
+.footer-area .row{
+  padding: 3% 0;
+}
+.footer-area .site-logo img,
+.footer-area .para,
+.footer-area .social-media,
+.footer-area .recent-post,
+.footer-area .popular-tags{
+  padding-left: 1.5rem;
+  padding-top: .9rem;
+}
+.footer-area .social-media a{
+  padding-right: 1rem;
+}
+
+/* Recent post */
+.footer-area .recent-post .column{
+  flex: 25%;
+  max-width: 25%;
+  padding: 0;
+}
+.footer-area .recent-post .posts{
+  padding-top: .9rem;
+}
+
+/* Popular tags */
+.footer-area  .popular-tags .tags a{
+  margin: 12px 0;
+}
+.footer-area .popular-tags .tags a span{
+  padding: 7px 15px;
+  background: var(--gray);
+  border-radius: 50px;
+  margin-right: 1rem;
+  color: var(--dark);
+  transition: background.7s ease;
+}
+.footer-area .popular-tags .tags a:hover span{
+  background: var(--primary-color);
+  border: 1px solid var(--border);
+}
+.footer-area .popular-tags .tags a{
+  margin-left: 0;
+  margin-top: 2rem;
+}

@@ -1,0 +1,45 @@
+/* All Post Css is here */
+.main-area .post-area{
+  margin: 0 10%;
+  background: var(--light);
+}
+.main-area .post-area .grid{
+  column-count: 2;
+}
+.main-area .post-area .article{
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  width: auto;
+  display: inline-block;
+}
+.main-area article.blog-post{
+  box-shadow: var(-box-shadow3);
+  border: 1px solid var(--border);
+  transition: box-shadow .7s ease;
+}
+.main-area article.blog-post .post-thumbnail img {
+  padding: 1rem;
+}
+.main-area article.blog-post .post-thumbnail img:hover{
+  transform: translateX(30deg);
+}
+.main-area article.blog-post:hover{
+  box-shadow: none;
+}
+.main-area article.blog-post .post-info,
+.main-area article.blog-post .post-content,
+.main-area article.blog-post .post-title,
+.main-area article.blog-post .post-cat{
+  padding: 1rem;
+}
+
+
+.main-area article.blog-post .post-info hr{
+  margin-top: 3rem;
+  background: var(--gray);
+}
+.post-img img {
+  width: 100%;
+  height: 150px;
+  border: 1px solid var(--gray);
+}
